@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Erika !</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-child arrow-parent" id="container-left">
+            <div class="arrow-container"><img id="arrow-left" style="opacity: 0;" src="assets/img/right-arrow.png" width="100" alt="arrow-left" onclick="handleLeftArrowClick()"></div>
+        </div>
+            
+        <div class="container-child" id="container-center">
+            <h1 id="message"></h1>
+
+            <div class="buttons" style="display: none;">
+                <button class="yes-button" onclick="handleYesClick()">Yes</button>
+                <button class="no-button" onclick="handleNoClick()">No</button>
+            </div>
+            <div class="image_container">
+                <img id="image" src="">
+            </div>
+        </div>
+
+        <div class="container-child arrow-parent" id="container-right">
+            <div class="arrow-container"><img id="arrow-right" src="assets/img/right-arrow.png" width="100" alt="arrow-right" onclick="handleRightArrowClick()"></div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
